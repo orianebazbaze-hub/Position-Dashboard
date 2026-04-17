@@ -11,14 +11,14 @@
 
 ## Use Case
 
-A **Corporate Treasury funding desk** manages ~€736M across 7 asset classes and needs to:
+A **Treasury funding desk** manages ~€736M across 7 asset classes and needs to:
 
-✅ Track **15 positions** in real-time (CD, CP, Money Market, XCCY swaps, FX swaps, covered bonds, corporate bonds)  
-✅ Monitor **mark-to-market P&L** per position  
-✅ Measure **interest rate risk** (DV01), **FX exposure** (delta), **basis risk** (XCCY)  
-✅ Allocate **funding costs** (FTP) by maturity and product  
-✅ Plan **refinancing** (maturity ladder, rollover windows)  
-✅ Run **stress scenarios** (rates ±200bp, FX ±5%, basis ±50bp)  
+ Track **15 positions** in real-time (CD, CP, Money Market, XCCY swaps, FX swaps, covered bonds, corporate bonds)  
+ Monitor **mark-to-market P&L** per position  
+ Measure **interest rate risk** (DV01), **FX exposure** (delta), **basis risk** (XCCY)  
+ Allocate **funding costs** (FTP) by maturity and product  
+ Plan **refinancing** (maturity ladder, rollover windows)  
+ Run **stress scenarios** (rates ±200bp, FX ±5%, basis ±50bp)  
 
 This dashboard delivers all of that **in one interface**.
 
