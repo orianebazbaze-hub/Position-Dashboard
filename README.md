@@ -1,11 +1,11 @@
 # Portfolio Positioning Dashboard
 
-> **Corporate Treasury | Desk Front Portfolio Management**  
+> **Desk Front Portfolio Management**  
 > Real-time position tracking and portfolio risk dashboard for funding & investment desks.
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue) ![Flask](https://img.shields.io/badge/Flask-3.0-green) ![JavaScript](https://img.shields.io/badge/JavaScript-ES2022-yellow)
 
-> **Fictitious portfolio for demonstration purposes only.** All positions (CD, CP, Money Market, XCCY, FX Swaps, Covered Bonds, Corporate Bonds) use simulated rates and market parameters. Not for trading.
+> **Fictitious portfolio for demonstration purposes only.** All positions (CD, CP, Money Market, XCCY, FX Swaps, Covered Bonds, Corporate Bonds) use simulated rates and market parameters. 
 
 ---
 
