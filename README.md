@@ -103,6 +103,14 @@ This dashboard delivers all of that **in one interface**.
 - **Basis slider**: ±50bp XCCY basis shock
 - **Results**: total portfolio impact + per-position breakout
 
+
+
+
+<img width="715" height="523" alt="Capture d’écran 2026-04-17 à 21 41 13" src="https://github.com/user-attachments/assets/fd63ed9d-018f-4724-8a02-033f38bb18e8" />
+<img width="717" height="476" alt="Capture d’écran 2026-04-17 à 21 41 32" src="https://github.com/user-attachments/assets/74f4d302-0004-4a28-baea-1338f9fada8d" />
+<img width="723" height="765" alt="Capture d’écran 2026-04-17 à 21 41 53" src="https://github.com/user-attachments/assets/8c84d554-22c2-49f0-a90f-2c5e89a7202b" />
+<img width="718" height="655" alt="Capture d’écran 2026-04-17 à 21 42 10" src="https://github.com/user-attachments/assets/e65fdc7f-1b25-41e8-affc-b8133d499a3d" />
+<img width="705" height="289" alt="Capture d’écran 2026-04-17 à 21 43 10" src="https://github.com/user-attachments/assets/44ee88ad-9518-49b1-89d8-f6baf613939a" />
 ---
 
 ## Quickstart
@@ -203,27 +211,10 @@ Parameters:
 - `Weighted Cost = Σ(Amount × Cost Rate) / Total Amount`
 - **Current: 3.50% p.a.**
 
----
-
-## Technical Stack
-
-**Backend:** Python 3.10+ + Flask + NumPy + SciPy  
-**Frontend:** Vanilla JavaScript + HTML/CSS (dark theme)  
-**Pricing:** OIS curve (cubic spline), bond duration, FX parity  
-**Performance:** All calculations < 100ms  
 
 ---
 
-## Files
 
-```
-portfolio_dashboard/
-├── app.py                  # Flask backend (462 lines)
-├── templates/
-│   └── index.html         # Frontend (376 lines, dark theme)
-├── requirements.txt        # Dependencies
-└── README.md              # This file
-```
 
 ---
 
@@ -238,10 +229,10 @@ portfolio_dashboard/
 
 ## Limitations & Notes
 
-⚠️ **Portfolio is fictitious** — rates, notionals, curves are simulated  
-⚠️ **Simplified models** — real systems use key rate durations, non-linear FTP, multi-factor stress  
-⚠️ **Parallel shifts only** — stress doesn't model yield curve twists  
-⚠️ **No market data feeds** — all rates hard-coded (for demo)  
+ **Portfolio is fictitious** — rates, notionals, curves are simulated  
+ **Simplified models** — real systems use key rate durations, non-linear FTP, multi-factor stress  
+ **Parallel shifts only** — stress doesn't model yield curve twists  
+ **No market data feeds** — all rates hard-coded (for demo)  
 
 ---
 
@@ -251,3 +242,6 @@ portfolio_dashboard/
 - **Key Rate Durations** instead of parallel shift
 - **Multi-currency portfolio aggregation** (consolidate to USD)
 - **Historical P&L attribution** (analytics dashboard)
+
+## Author
+ob
