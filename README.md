@@ -130,44 +130,6 @@ Dashboard loads with **15 demo positions** (€736M notional).
 
 ---
 
-## API Reference
-
-All routes return JSON. No authentication required for demo.
-
-### GET /api/positions
-Returns all positions with notional, rate, maturity, P&L.
-
-```bash
-curl http://localhost:5002/api/positions
-```
-
-### GET /api/risks
-Returns DV01, FX Delta, Basis Duration per position.
-
-```bash
-curl http://localhost:5002/api/risks
-```
-
-### GET /api/funding
-Returns funding cost allocation by position.
-
-```bash
-curl http://localhost:5002/api/funding
-```
-
-### GET /api/calendar
-Returns refinancing calendar (maturity dates + amounts).
-
-```bash
-curl http://localhost:5002/api/calendar
-```
-
-### GET /api/stress
-Returns stress scenario impact (rates + FX + basis).
-
-```bash
-curl "http://localhost:5002/api/stress?rate=100&fx=0&basis=0"
-```
 
 Parameters:
 - `rate`: rate shift in bp (default: 100, range: -200 to +200)
